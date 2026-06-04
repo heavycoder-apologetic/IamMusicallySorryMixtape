@@ -99,12 +99,13 @@ export default function App() {
 
         {/* Outro — the closing apology */}
         <section className="relative min-h-[100vh] flex flex-col items-center justify-center px-6 md:px-8 text-center z-20">
-          <p className="font-hand text-bollywood-gold text-3xl md:text-5xl">
-            ◀◀ end of side A
+          {/* personal apology — to Aabhas */}
+          <p className="font-hand text-5xl md:text-7xl lg:text-8xl text-bollywood-cream/95 leading-tight">
+            i am sorry, <span className="text-bollywood-rose">Aabhas</span>.
           </p>
 
           {/* THE closing statement — a lyric, flanked by music notes */}
-          <p className="mt-14 font-display italic text-4xl md:text-6xl lg:text-[4.5rem] leading-[1.2] text-bollywood-cream max-w-5xl text-shadow-emboss px-4">
+          <p className="mt-6 font-display italic text-4xl md:text-6xl lg:text-[4.5rem] leading-[1.2] text-bollywood-cream max-w-5xl text-shadow-emboss px-4">
             <span className="text-bollywood-gold/85 mr-3 md:mr-5 inline-block">♫</span>
             Aapki Manzil main hoon, Meri Manzil aap hai
             <span className="text-bollywood-gold/85 ml-3 md:ml-5 inline-block">♫</span>

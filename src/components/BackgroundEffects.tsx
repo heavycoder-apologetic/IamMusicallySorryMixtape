@@ -20,11 +20,11 @@ const DARK = {
 };
 
 const LIGHT = {
-  stop1: [74, 32, 42]   as [number, number, number],   // dusty wine
-  stop2: [145, 72, 86]  as [number, number, number],   // dusty rose (the hero glow)
-  stop3: [120, 80, 60]  as [number, number, number],   // warm sepia
-  roseAlpha:  0.65,
-  amberAlpha: 0.38,
+  stop1: [88,  50,  78]  as [number, number, number],  // deep wine-mauve
+  stop2: [168, 108, 150] as [number, number, number],  // dusty mauve (the glow)
+  stop3: [160, 122, 168] as [number, number, number],  // soft lavender-mauve
+  roseAlpha:  0.55,
+  amberAlpha: 0.18,
 };
 
 export function BackgroundEffects() {
@@ -37,8 +37,8 @@ export function BackgroundEffects() {
   const amberA = lerp(DARK.amberAlpha, LIGHT.amberAlpha, p).toFixed(3);
 
   const bg = `
-    radial-gradient(circle at 45% 35%, rgba(145, 72, 86, ${roseA}), transparent 55%),
-    radial-gradient(circle at 80% 70%, rgba(180, 120, 90, ${amberA}), transparent 50%),
+    radial-gradient(circle at 45% 35%, rgba(168, 108, 150, ${roseA}), transparent 60%),
+    radial-gradient(circle at 80% 70%, rgba(190, 145, 180, ${amberA}), transparent 55%),
     linear-gradient(135deg, ${stop1} 0%, ${stop2} 50%, ${stop3} 100%)
   `;
 
