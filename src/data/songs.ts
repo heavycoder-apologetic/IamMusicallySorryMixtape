@@ -72,7 +72,7 @@ export const TERA_MUJHSE: Song = {
   film: 'Aa Gale Lag Jaa',
   year: 1973,
   poster: 'from-amber-300 via-rose-400 to-pink-500',
-  youtube: 'https://youtu.be/PVzKTyy8C0o',
+  youtube: 'https://youtu.be/PVzKTyy8C0o?si=J558dcbwL5GFCVF6&t=2',
   side: 'left',
 };
 
